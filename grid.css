@@ -1,0 +1,26 @@
+ body {
+	 display: grid;
+	 grid-template-areas: "header"
+						  "about"
+						  "cups"
+						  "footer";
+ }
+	 
+  body > * {
+	 outline: 2px dashed red;
+ }
+ 
+ div#cups {
+	 display: grid;
+	 grid-template-columns: 1fr 1fr;
+	 grid-auto-rows: 150px;
+ }
+ 
+/*nav#mainLinks ul li {
+	display: grid;
+	grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+}
+ */
+ div#cups > * {
+	 outline: 2px dashed blue;
+ }
