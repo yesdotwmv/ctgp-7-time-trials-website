@@ -61,3 +61,10 @@ nav.horizontal a {
    text-align: center;
 }  
 
+/* footer styles */
+footer > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
