@@ -9,14 +9,18 @@
 Experiment with a custom font later.
 */ 
 
-/*
+
 html, body {
-background-image: url("background.png")
+background-image: url("background.png");
+background-color: black;
+background-repeat: no-repeat;
+background-attachment: fixed;
 background-size: cover;
 background-position: center;
+color: white;
+
 }
-Background for the website
-*/
+
 
 /* header styles */
 header > h1 {
